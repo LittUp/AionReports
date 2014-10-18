@@ -9,30 +9,13 @@
 	font-style: normal;
 }
 
-
-body {
-	/*background-color: rgba(68, 131, 129, 0.71);*/
-	/*background-color: #2b3e50;*/
-	background-color: rgba(59, 119, 118, 0.79);
-	font-family: 'Lucida Sans Unicode', 'Lucida Grande';
-}
-
 a {
 	color: #ccc;
 	text-decoration: none !important;
 }
 
-span a {
-	color: #2b3e50;
-	font-size: 20px !important;
-	text-decoration: none !important;
-}
+.icons-div {
 
-span a:hover {
-	color: #2b3e50;
-	font-size: 20px !important;
-	text-decoration: none !important;
-	cursor: pointer;
 }
 
 .icons-div ul {
@@ -50,7 +33,7 @@ span a:hover {
 
 .icons-div ul li a {
   display: block;
-  margin-bottom: 12px; 
+  margin-bottom: 10px; 
   font-size: 13px;
   text-decoration: none;
   
@@ -58,8 +41,6 @@ span a:hover {
 
 .icon-description-text {
 	font-size: 20px;
-	/*font-weight: bold;*/
-	color: #2b3e50;
 }
 
 .hi-icon-wrap {
@@ -79,7 +60,7 @@ span a:hover {
 	text-align: center;
 	position: relative;
 	z-index: 1;
-	color: #2b3e50;
+	color: #fff;
 }
 
 .hi-icon:after {
@@ -204,7 +185,7 @@ span a:hover {
 	top: 0;
 	left: 0;
 	padding: 0;
-	box-shadow: 0 0 0 3px #2b3e50;
+	box-shadow: 0 0 0 3px #fff;
 	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
 	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
 	transition: transform 0.2s, opacity 0.2s;
@@ -216,11 +197,11 @@ span a:hover {
 	-moz-transform: scale(0.85);
 	-ms-transform: scale(0.85);
 	transform: scale(0.85);
-	opacity: 0.7;
-	color: #fff;
+	opacity: 0.5;
 }
 
 .hi-icon-effect-a .hi-icon:hover {
-	box-shadow: 0 0 0 10px #2b3e50;
+	box-shadow: 0 0 0 10px rgba(255,255,255,1);
 	color: #fff;
 }
+
