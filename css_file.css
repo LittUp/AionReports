@@ -9,12 +9,26 @@
 	font-style: normal;
 }
 
+@font-face {
+  font-family: 'Cookie';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cookie-Regular'), 
+  url('../Chronus-Website/Cookie_Font.woff') format('woff');
+}
 
 body {
 	/*background-color: rgba(68, 131, 129, 0.71);*/
 	/*background-color: #2b3e50;*/
 	background-color: rgba(59, 119, 118, 0.79);
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande';
+}
+
+
+.logo {
+	font-size: 100px;
+	font-family: 'Cookie', cursive;
+	color: #2b3e50;
 }
 
 a {
@@ -35,25 +49,32 @@ span a:hover {
 	cursor: pointer;
 }
 
-.icons-div ul {
+.icons ul {
   list-style: none;
   padding: 0px !important;
 
 }
 
-.icons-div ul li {
+.icons ul li {
 	display: inline-block;
 	list-style: none;
-  	padding: 0;
+  	padding: 10px;
   	text-align:center; 
 }
 
-.icons-div ul li a {
+.icons ul li a {
   display: block;
   margin-bottom: 12px; 
   font-size: 13px;
   text-decoration: none;
   
+}
+
+.icon-div {
+	padding: 30px;
+	text-align: center;
+	position: relative;
+	border: 1px solid #cfcfcf;
 }
 
 .icon-description-text {
@@ -65,14 +86,14 @@ span a:hover {
 .hi-icon-wrap {
 	text-align: center;
 	margin: 0 auto;
-	padding: 2em 0 3em;
+
 }
 
 .hi-icon {
 	display: inline-block;
 	font-size: 0px;
 	cursor: pointer;
-	margin: 15px 30px;
+	margin: 15px 60px;
 	width: 90px;
 	height: 90px;
 	border-radius: 50%;
@@ -223,4 +244,19 @@ span a:hover {
 .hi-icon-effect-a .hi-icon:hover {
 	box-shadow: 0 0 0 10px #2b3e50;
 	color: #fff;
+}
+
+/* Separating line */
+.sep-line {
+	border-top: 1px solid #cfcfcf;
+	width: 100%;
+	text-align: center;	
+	display: block;
+	height: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+ 	margin-bottom: 10px;
+ 	margin-top: 10px;
+
 }
